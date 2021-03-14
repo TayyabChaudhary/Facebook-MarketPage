@@ -1,0 +1,137 @@
+:root{
+    --body_Background_Color: #f5f5f5;
+    --SideBar_Bavkground_Color: #FFF;
+    --SideBarBoxShadow_Color: 0px 0px 8px #ddd;
+}
+body{
+    background-color: var(--body_Background_Color);
+    min-height: 100vh;
+}
+.NJDNJDNJ .sidebar{
+     width: 340px;
+     overflow: auto;
+     height: 100vh;
+     background-color: var(--SideBar_Bavkground_Color);
+     box-shadow: var(--SideBarBoxShadow_Color);
+     padding: 1rem;
+ }
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e4e6eb;
+    border-radius: 20px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e4e6eb;
+  }
+ .NJDNJDNJ .sidebar .NUSDHJFKJK{
+    width: 40px;
+    height: 40px;
+    background-color: #e4e6eb;
+ }
+ .NJDNJDNJ .sidebar .NIJFJFK ._DJIDJOI{
+    width: 100%;
+    outline: none;
+    margin-block-start: 21px;
+    height: 39px;
+    padding-inline-start: 35px;
+    background-color: #e4e6eb;
+ }
+ ._DJIDJOI::placeholder{
+     font-weight: 100;
+     letter-spacing: .4px;
+ }
+ ._DJIDJOI::-ms-clear {
+    display: none;
+}
+ .NJDNJDNJ .sidebar .NIJFJFK ._sjfjik{
+    margin-block-start: 34px;
+    margin-inline-start: 10px;
+    color: #ccc;
+ }
+ .NJDNJDNJ .sidebar .MOLADKLDK .KDLDKl .MIAJDKOPA{
+    width: 30px;
+    height: 30px;
+    background-color: #e4e6eb;
+   }
+   .NJDNJDNJ .sidebar .LIKKOIF button{
+background-color: #e7f3ff;
+color: #1a78f2;
+outline: none;
+   }
+   .NJDNJDNJ .sidebar ._OPDUD h2{
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 600;
+letter-spacing: .4px;
+   }
+   .NJDNJDNJ .sidebar ._OPDUD p{
+    color: #1a78f2;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+   }
+   .NJDNJDNJ .sidebar .NIJADOF .NIKOD .NKISJFO{
+    width: 30px;
+    height: 30px;
+    background-color: #e4e6eb;
+    }
+    /* Side Bar Code End Her */
+    .NIDJOJODA{
+        width: 950px;
+        min-height: 100px;
+        background-color: #FFF;
+        box-shadow: var(--SideBarBoxShadow_Color);
+    }
+    .sorpope{
+        margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    }
+   .NIDJOJODA .po0f8 .la9fjhi{
+width: 60%;
+height: 100vh;
+    }
+    .MNIDJID, video {
+        max-width: 100%;
+        height: 100vh;
+    }
+    .carousel-open:checked + .carousel-item {
+        position: static;
+        opacity: 100;
+    }
+    .carousel-item {
+        -webkit-transition: opacity 0.6s ease-out;
+        transition: opacity 0.6s ease-out;
+    }
+    #carousel-1:checked ~ .control-1,
+    #carousel-2:checked ~ .control-2,
+    #carousel-3:checked ~ .control-3 {
+        display: block;
+    }
+    .carousel-indicators {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 2%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 10;
+    }
+    #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+    #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+    #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+        color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
+    }
